@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        const greeting="";
+        function Message(props){
+            return (
+                <span>
+                    {props.msg}
+                    <br />
+                </span>
+            )
+        }
+        function handleClick(){
+            console.log("clicked")
+        }
+
+        const section= (
+        <section onClick={handleClick}>
+           { greeting ? greeting : "hey"}
+           {greeting ? <span>{greeting}</span> : null }
+           <br/>
+
+           </section>)

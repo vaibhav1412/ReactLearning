@@ -1,0 +1,21 @@
+.box {
+  border: 2px solid black;
+}
+.box-small {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+.box-mid {
+  margin: 10px;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+}
+.box-large {
+  margin: 10PX;
+  padding:10px;
+  height: 150px;
+  width: 150px;
+}
